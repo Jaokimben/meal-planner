@@ -1,0 +1,11 @@
+{
+  "build": {
+    "builder": "nixpacks",
+    "config": {
+      "startCmd": "expo start --tunnel"
+    }
+  },
+  "deploy": {
+    "startCommand": "expo start --tunnel"
+  }
+}

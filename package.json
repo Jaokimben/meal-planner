@@ -5,7 +5,9 @@
   "scripts": {
     "start": "expo start --tunnel",
     "start-web": "expo start --web --tunnel",
-    "start-web-dev": "DEBUG=expo* expo start --web --tunnel"
+    "start-web-dev": "DEBUG=expo* expo start --web --tunnel",
+    "railway:build": "expo export:web",
+    "railway:start": "npx serve web-build"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
