@@ -6,8 +6,9 @@
     "start": "expo start --tunnel",
     "start-web": "expo start --web --tunnel",
     "start-web-dev": "DEBUG=expo* expo start --web --tunnel",
-    "railway:build": "expo export:web",
-    "railway:start": "npx serve web-build"
+    "vercel-build": "expo export -p web",
+    "start": "expo start",
+    "build": "expo export -p web"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
