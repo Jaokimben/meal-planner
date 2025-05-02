@@ -2,10 +2,10 @@
   "build": {
     "builder": "nixpacks",
     "config": {
-      "startCmd": "expo start --tunnel"
+      "startCmd": "bun install && expo start --tunnel"
     }
   },
   "deploy": {
-    "startCommand": "expo start --tunnel"
+    "startCommand": "bun install && expo start --tunnel"
   }
 }
